@@ -660,9 +660,11 @@ hr {
 .img-comments-bar {
   position: absolute;
   top: 24px;
-  left: 23px;
+  left: 24px;
   height: 15px;
   width: 15px;
+  background: #d9d4d4;
+  border-radius: 9px;
 }
 .smash-code-comments-bar-input {
   display: flex;
@@ -873,6 +875,11 @@ hr {
   border-radius: 50px;
   display: inline-block;
 }
+
+.aside-heading__3dots-kety:hover{
+  background-color: #dfdfe2;
+  border-radius: 100px;
+}
 .cards-three__icon-color-12:hover,
 .aside-heading__3dots:hover {
   background-color: #dfdfe2;
@@ -1014,9 +1021,11 @@ hr {
   position: sticky;
   top: 0px;
   right: 0;
-  overflow: auto;
+  /* overflow: auto; */
+  overflow: scroll;
   height: calc(100vh - 60px);
 }
+
 .sidebar-R {
   flex: 0 0 22%;
   flex: 0 0 20%;
