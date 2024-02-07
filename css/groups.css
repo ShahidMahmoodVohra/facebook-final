@@ -5,7 +5,9 @@
   --color-grey-light-3: #76787c;
   --color-grey-light-4: #e4e6eb;
   --color-border-bottom: #ced0d4;
-  --color-hover: #e4e6eb;
+  /* --color-hover: #e4e6eb; */
+  --color-hover: #f7f7fa;
+
 }
 
 * {

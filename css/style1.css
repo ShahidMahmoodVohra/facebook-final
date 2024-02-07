@@ -544,6 +544,8 @@ hr {
 }
 .smash-code-action:hover {
   background-color: #dfdfe2;
+  background-color: #f7f7fa;
+
 }
 
 .smash-code-name-h4 {
@@ -572,6 +574,9 @@ hr {
   font-size: 11px;
   color: #95979a;
   cursor: pointer;
+}
+.smash-code-name-time:hover {
+  text-decoration: underline;
 }
 .smash-code-content-web-link {
   color: #6a6a6a;
@@ -829,16 +834,24 @@ hr {
 }
 .cards-three__heading-1 {
   color: #59595a;
+  cursor: pointer;
+  transition: all .4s;
 }
 .cards-three__para {
   color: #95979a;
+  cursor: pointer;
+  transition: all .4s;
+}
+.cards-three__heading-1:hover,
+.cards-three__para:hover{
+  text-decoration: underline;
 }
 .cards-three__join {
   text-decoration: none;
   color: #0571ed;
 }
 .cards-three__join:hover {
-  text-decoration: underline;
+  text-decoration: none !important;
 }
 .cards-three__icon-2x {
   display: flex;
@@ -879,11 +892,15 @@ hr {
 
 .aside-heading__3dots-kety:hover{
   background-color: #dfdfe2;
+  background-color: #f7f7fa;
+
   border-radius: 100px;
 }
 .cards-three__icon-color-12:hover,
 .aside-heading__3dots:hover {
   background-color: #dfdfe2;
+  background-color: #f7f7fa;
+
   border-radius: 50%;
 }
 .cards-three__photo-1 {
@@ -956,6 +973,7 @@ hr {
 }
 .cards-three__heading-1 {
   margin-left: 15px !important;
+  transition: all .4s;
 }
 
 .cards-three__para {
@@ -1004,6 +1022,7 @@ hr {
 .cards-three__icon-color-12-shahid:hover,
 .aside-heading__3dots-shahid:hover {
   background-color: #dfdfe2;
+  background-color: #f7f7fa;
   border-radius: 50%;
 }
 
@@ -1076,6 +1095,7 @@ hr {
 }
 .aside-heading__3dots:hover {
   background-color: #dfdfe2;
+  background-color: #f7f7fa;
   border-radius: 100px;
 }
 .aside-heading__see-all {
