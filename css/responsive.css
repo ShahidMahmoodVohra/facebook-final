@@ -303,6 +303,8 @@
   .main_section {
     /* margin-top: 75px !important; */
     background: #fff !important;
+    overflow: scroll;
+    height: 100vh;
   }
   .header {
     display: none !important;
